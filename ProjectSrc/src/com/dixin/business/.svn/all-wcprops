@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business
+END
+AggregationFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/AggregationFactory.java
+END
+IAggregation.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/IAggregation.java
+END
+IBaseHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/IBaseHelper.java
+END
+StatManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dixin/!svn/ver/92/dxkc/src/com/dixin/business/StatManager.java
+END
+DataException.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/DataException.java
+END
+IPagedResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/IPagedResult.java
+END
+IQueryDefn.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/IQueryDefn.java
+END

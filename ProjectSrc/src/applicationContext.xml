@@ -1,0 +1,607 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+
+	<bean id="ds" class="com.dixin.EncryptedDataSource">
+		<property name="driverClassName"
+			value="com.mysql.jdbc.Driver">
+		</property>
+		<property name="url" value="jdbc:mysql://localhost/dixin?characterEncoding=utf-8"></property>
+		<property name="username" value="root"></property>
+		<property name="password" value="ODg4ODg4"></property>
+	</bean>
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource">
+			<ref bean="ds" />
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">
+					org.hibernate.dialect.MySQLDialect
+				</prop>
+				<prop key="hibernate.show_sql">false</prop>
+			</props>
+		</property>
+		<property name="mappingResources">
+			<list>
+				<value>com/dixin/hibernate/Arrivement.hbm.xml</value>
+				<value>com/dixin/hibernate/Order.hbm.xml</value>
+				<value>com/dixin/hibernate/Shop.hbm.xml</value>
+				<value>com/dixin/hibernate/Product.hbm.xml</value>
+				<value>com/dixin/hibernate/Orderdetail.hbm.xml</value>
+				<value>
+					com/dixin/hibernate/Deliverydetail.hbm.xml
+				</value>
+				<value>com/dixin/hibernate/Storehouse.hbm.xml</value>
+				<value>com/dixin/hibernate/Delivery.hbm.xml</value>
+				<value>com/dixin/hibernate/Arrangement.hbm.xml</value>
+				<value>com/dixin/hibernate/Factoryorder.hbm.xml</value>
+				<value>com/dixin/hibernate/Payment.hbm.xml</value>
+				<value>
+					com/dixin/hibernate/Factoryorderdetail.hbm.xml
+				</value>
+				<value>com/dixin/hibernate/Customer.hbm.xml</value>
+				<value>com/dixin/hibernate/Arrivedetail.hbm.xml</value>
+				<value>com/dixin/hibernate/Refund.hbm.xml</value>
+				<value>com/dixin/hibernate/FdRefund.hbm.xml</value>
+				<value>com/dixin/hibernate/Employee.hbm.xml</value>
+				<value>com/dixin/hibernate/Repertory.hbm.xml</value>
+				<value>com/dixin/hibernate/Bidding.hbm.xml</value>
+				<value>com/dixin/hibernate/Correction.hbm.xml</value>
+				<value>com/dixin/hibernate/Menu.hbm.xml</value>
+				<value>com/dixin/hibernate/User.hbm.xml</value>
+				<value>com/dixin/hibernate/Role.hbm.xml</value>
+				<value>com/dixin/hibernate/Reserved.hbm.xml</value>			
+				<value>com/dixin/hibernate/Available.hbm.xml</value>
+				<value>com/dixin/hibernate/Overflow.hbm.xml</value>
+				<value>com/dixin/hibernate/Action.hbm.xml</value>
+				<value>com/dixin/hibernate/LadingBill.hbm.xml</value>
+				<value>com/dixin/hibernate/StatView.hbm.xml</value>
+				<value>com/dixin/hibernate/StatGroupView.hbm.xml</value>
+				<value>com/dixin/hibernate/ProductFactoryorderSummary.hbm.xml</value>
+				<value>com/dixin/hibernate/AdC.hbm.xml</value>
+				<value>com/dixin/hibernate/OdC.hbm.xml</value>
+			</list>
+		</property>
+	</bean>
+	<!-- actions -->
+	<!--  Product Actions -->
+	<bean id="addProductAction"
+		class="com.dixin.action.product.AddProductAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveProductAction"
+		class="com.dixin.action.product.SaveProductAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchProductAction"
+		class="com.dixin.action.product.SearchProductAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="deleteProductAction"
+		class="com.dixin.action.product.DeleteProductAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadProductAction"
+		class="com.dixin.action.product.LoadProductAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="modifyPriceAction"
+		class="com.dixin.action.product.ModifyPriceAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="exportProductAction"
+		class="com.dixin.action.product.ExportProductAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  Shop Actions -->
+	<bean id="addShopAction"
+		class="com.dixin.action.shop.AddShopAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveShopAction"
+		class="com.dixin.action.shop.SaveShopAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchShopAction"
+		class="com.dixin.action.shop.SearchShopAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="deleteShopAction"
+		class="com.dixin.action.shop.DeleteShopAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadShopAction"
+		class="com.dixin.action.shop.LoadShopAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  Customer Actions -->
+	<bean id="addCustomerAction"
+		class="com.dixin.action.customer.AddCustomerAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveCustomerAction"
+		class="com.dixin.action.customer.SaveCustomerAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchCustomerAction"
+		class="com.dixin.action.customer.SearchCustomerAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="deleteCustomerAction"
+		class="com.dixin.action.customer.DeleteCustomerAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadCustomerAction"
+		class="com.dixin.action.customer.LoadCustomerAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  Employee Actions -->
+	<bean id="addEmployeeAction"
+		class="com.dixin.action.employee.AddEmployeeAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveEmployeeAction"
+		class="com.dixin.action.employee.SaveEmployeeAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchEmployeeAction"
+		class="com.dixin.action.employee.SearchEmployeeAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="deleteEmployeeAction"
+		class="com.dixin.action.employee.DeleteEmployeeAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadEmployeeAction"
+		class="com.dixin.action.employee.LoadEmployeeAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  Storehouse Actions -->
+	<bean id="addStorehouseAction"
+		class="com.dixin.action.storehouse.AddStorehouseAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveStorehouseAction"
+		class="com.dixin.action.storehouse.SaveStorehouseAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchStorehouseAction"
+		class="com.dixin.action.storehouse.SearchStorehouseAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="deleteStorehouseAction"
+		class="com.dixin.action.storehouse.DeleteStorehouseAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadStorehouseAction"
+		class="com.dixin.action.storehouse.LoadStorehouseAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  Repertory Actions -->
+	<bean id="searchRepertoryAction"
+		class="com.dixin.action.repertory.SearchRepertoryAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="transferRepertoryAction"
+		class="com.dixin.action.repertory.TransferRepertoryAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadRepertoryAction"
+		class="com.dixin.action.repertory.LoadRepertoryAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  Order Actions -->
+	<bean id="addOrderAction"
+		class="com.dixin.action.order.AddOrderAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveOrderAction"
+		class="com.dixin.action.order.SaveOrderAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveDoubleCheckedOrderAction"
+		class="com.dixin.action.order.SaveDoubleCheckedOrderAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchOrderAction"
+		class="com.dixin.action.order.SearchOrderAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="deleteOrderAction"
+		class="com.dixin.action.order.DeleteOrderAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadOrderAction"
+		class="com.dixin.action.order.LoadOrderAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="restoreOrderAction"
+		class="com.dixin.action.order.RestoreOrderAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="reserveOrderAction"
+		class="com.dixin.action.reserve.ReserveOrderAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="autoReserveAction"
+		class="com.dixin.action.reserve.AutoReserveAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="unreservedOrdersAction"
+		class="com.dixin.action.reserve.UnreservedOrdersAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchOrderdetailAction"
+		class="com.dixin.action.orderdetail.SearchOrderdetailAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveOrderdetailAction"
+		class="com.dixin.action.orderdetail.SaveOrderdetailAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>	
+	<bean id="loginAction"
+		class="com.dixin.action.user.LoginAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  User Actions -->
+	<bean id="addUserAction"
+		class="com.dixin.action.user.AddUserAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveUserAction"
+		class="com.dixin.action.user.SaveUserAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveUserRolesAction"
+		class="com.dixin.action.user.SaveUserRolesAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchUserAction"
+		class="com.dixin.action.user.SearchUserAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="deleteUserAction"
+		class="com.dixin.action.user.DeleteUserAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadUserAction"
+		class="com.dixin.action.user.LoadUserAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadUserRolesAction"
+		class="com.dixin.action.user.LoadUserRolesAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadUserMenusAction"
+		class="com.dixin.action.user.LoadUserMenusAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  Role Actions -->
+	<bean id="addRoleAction"
+		class="com.dixin.action.role.AddRoleAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveRoleAction"
+		class="com.dixin.action.role.SaveRoleAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveRoleMenusAction"
+		class="com.dixin.action.role.SaveRoleMenusAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchRoleAction"
+		class="com.dixin.action.role.SearchRoleAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="deleteRoleAction"
+		class="com.dixin.action.role.DeleteRoleAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadRoleAction"
+		class="com.dixin.action.role.LoadRoleAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadRoleMenusAction"
+		class="com.dixin.action.role.LoadRoleMenusAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  Menu Actions -->
+	<bean id="searchMenuAction"
+		class="com.dixin.action.menu.SearchMenuAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadMenuAction"
+		class="com.dixin.action.menu.LoadMenuAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  Reserved Actions -->
+	<bean id="searchReservedAction"
+		class="com.dixin.action.reserved.SearchReservedAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  factory order action -->
+	<bean id="addFactoryorderAction"
+		class="com.dixin.action.factoryorder.AddFactoryorderAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveFactoryorderAction"
+		class="com.dixin.action.factoryorder.SaveFactoryorderAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveDoubleCheckedFactoryorderAction"
+		class="com.dixin.action.factoryorder.SaveDoubleCheckedFactoryorderAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchFactoryorderAction"
+		class="com.dixin.action.factoryorder.SearchFactoryorderAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="deleteFactoryorderAction"
+		class="com.dixin.action.factoryorder.DeleteFactoryorderAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadFactoryorderAction"
+		class="com.dixin.action.factoryorder.LoadFactoryorderAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="genFactoryorderAction"
+		class="com.dixin.action.factoryorder.GenFactoryorderAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  factory order overflow action -->
+	<bean id="searchOverflowAction"
+		class="com.dixin.action.overflow.SearchOverflowAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  factory order overflow action -->
+	<bean id="searchFactoryorderdetailAction"
+		class="com.dixin.action.factoryorderdetail.SearchFactoryorderdetailAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveFactoryorderdetailAction"
+		class="com.dixin.action.factoryorderdetail.SaveFactoryorderdetailAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  arrivement action -->
+	<bean id="addArrivementAction"
+		class="com.dixin.action.arrivement.AddArrivementAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveArrivementAction"
+		class="com.dixin.action.arrivement.SaveArrivementAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveDoubleCheckedArrivementAction"
+		class="com.dixin.action.arrivement.SaveDoubleCheckedArrivementAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchArrivementAction"
+		class="com.dixin.action.arrivement.SearchArrivementAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="deleteArrivementAction"
+		class="com.dixin.action.arrivement.DeleteArrivementAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadArrivementAction"
+		class="com.dixin.action.arrivement.LoadArrivementAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  Arrivedetail action -->
+	<bean id="searchArrivedetailAction"
+		class="com.dixin.action.arrivedetail.SearchArrivedetailAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadArrivedetailAction"
+		class="com.dixin.action.arrivedetail.LoadArrivedetailAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  payment action -->
+	<bean id="addPaymentAction"
+		class="com.dixin.action.payment.AddPaymentAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="savePaymentAction"
+		class="com.dixin.action.payment.SavePaymentAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchPaymentAction"
+		class="com.dixin.action.payment.SearchPaymentAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="deletePaymentAction"
+		class="com.dixin.action.payment.DeletePaymentAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadPaymentAction"
+		class="com.dixin.action.payment.LoadPaymentAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="findUnpayedOrderAction"
+		class="com.dixin.action.payment.FindUnpayedOrderAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="dataExportAction"
+		class="com.dixin.action.databackup.DataExportAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+		<property name="dataSource">
+			<ref bean="ds" />
+		</property>
+	</bean>
+	<bean id="dataDownloadAction"
+		class="com.dixin.action.databackup.DataDownloadAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="dataUploadAction"
+		class="com.dixin.action.databackup.DataUploadAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="dataImportAction"
+		class="com.dixin.action.databackup.DataImportAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+		<property name="dataSource">
+			<ref bean="ds" />
+		</property>
+	</bean>
+	<!--  delivery action -->
+	<bean id="addDeliveryAction"
+		class="com.dixin.action.delivery.AddDeliveryAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadDeliveryAction"
+		class="com.dixin.action.delivery.LoadDeliveryAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveDeliveryAction"
+		class="com.dixin.action.delivery.SaveDeliveryAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveDoubleCheckedDeliveryAction"
+		class="com.dixin.action.delivery.SaveDoubleCheckedDeliveryAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="deleteDeliveryAction"
+		class="com.dixin.action.delivery.DeleteDeliveryAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchDeliveryAction"
+		class="com.dixin.action.delivery.SearchDeliveryAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  refund action -->
+	<bean id="addRefundAction"
+		class="com.dixin.action.refund.AddRefundAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadRefundAction"
+		class="com.dixin.action.refund.LoadRefundAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveRefundAction"
+		class="com.dixin.action.refund.SaveRefundAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="deleteRefundAction"
+		class="com.dixin.action.refund.DeleteRefundAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchRefundAction"
+		class="com.dixin.action.refund.SearchRefundAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchDeliverydetailAction"
+		class="com.dixin.action.deliverydetail.SearchDeliverydetailAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="cleanDataAction"
+		class="com.dixin.action.clean.CleanDataAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	
+	<bean id="changePasswordAction"
+		class="com.dixin.action.user.ChangePasswordAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="getCurrentUserAction"
+		class="com.dixin.action.user.GetCurrentUserAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  correction action -->
+	<bean id="addCorrectionAction"
+		class="com.dixin.action.correction.AddCorrectionAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveCorrectionAction"
+		class="com.dixin.action.correction.SaveCorrectionAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchCorrectionAction"
+		class="com.dixin.action.correction.SearchCorrectionAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="deleteCorrectionAction"
+		class="com.dixin.action.correction.DeleteCorrectionAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadCorrectionAction"
+		class="com.dixin.action.correction.LoadCorrectionAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  arrangement action -->
+	<bean id="addArrangementAction"
+		class="com.dixin.action.arrangement.AddArrangementAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveArrangementAction"
+		class="com.dixin.action.arrangement.SaveArrangementAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchArrangementAction"
+		class="com.dixin.action.arrangement.SearchArrangementAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="deleteArrangementAction"
+		class="com.dixin.action.arrangement.DeleteArrangementAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadArrangementAction"
+		class="com.dixin.action.arrangement.LoadArrangementAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  ladingBill action -->
+	<bean id="addLadingBillAction"
+		class="com.dixin.action.ladingBill.AddLadingBillAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="saveLadingBillAction"
+		class="com.dixin.action.ladingBill.SaveLadingBillAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchLadingBillAction"
+		class="com.dixin.action.ladingBill.SearchLadingBillAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="deleteLadingBillAction"
+		class="com.dixin.action.ladingBill.DeleteLadingBillAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadLadingBillAction"
+		class="com.dixin.action.ladingBill.LoadLadingBillAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  fdrefund action -->
+	<bean id="addFdRefundAction"
+		class="com.dixin.action.fdrefund.AddFdRefundAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="loadFdRefundAction"
+		class="com.dixin.action.fdrefund.LoadFdRefundAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="deleteFdRefundAction"
+		class="com.dixin.action.fdrefund.DeleteFdRefundAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="searchFdRefundAction"
+		class="com.dixin.action.fdrefund.SearchFdRefundAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  statGroupView action -->
+	<bean id="searchStatGroupViewAction"
+		class="com.dixin.action.statgroupview.SearchStatGroupViewAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<!--  productFactoryorderSummary action -->
+	<bean id="searchProductFactoryorderSummaryAction"
+		class="com.dixin.action.productFactoryorderSummary.SearchProductFactoryorderSummaryAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+	<bean id="refundOrderdetailAction"
+		class="com.dixin.action.orderdetail.RefundOrderdetailAction" abstract="false"
+		lazy-init="default" autowire="no" dependency-check="default">
+	</bean>
+</beans>

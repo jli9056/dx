@@ -1,0 +1,617 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate
+END
+Bidding.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Bidding.java
+END
+AbstractPayment.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractPayment.java
+END
+Factoryorder.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Factoryorder.java
+END
+Product.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Product.hbm.xml
+END
+AbstractAvailable.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractAvailable.java
+END
+OdC.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dixin/!svn/ver/87/dxkc/src/com/dixin/hibernate/OdC.java
+END
+StatView.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/StatView.java
+END
+ProductFactoryorderSummary.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/dixin/!svn/ver/8/dxkc/src/com/dixin/hibernate/ProductFactoryorderSummary.hbm.xml
+END
+AbstractProductFactoryorderSummary.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/dixin/!svn/ver/7/dxkc/src/com/dixin/hibernate/AbstractProductFactoryorderSummary.java
+END
+Deliverydetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Deliverydetail.java
+END
+StatGroupView.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/StatGroupView.hbm.xml
+END
+Correction.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Correction.java
+END
+Delivery.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Delivery.hbm.xml
+END
+AbstractFactoryorderdetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/dixin/!svn/ver/77/dxkc/src/com/dixin/hibernate/AbstractFactoryorderdetail.java
+END
+Factoryorderdetail.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/dixin/!svn/ver/80/dxkc/src/com/dixin/hibernate/Factoryorderdetail.hbm.xml
+END
+AbstractAdC.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dixin/!svn/ver/87/dxkc/src/com/dixin/hibernate/AbstractAdC.java
+END
+Arrivement.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Arrivement.java
+END
+Repertory.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Repertory.hbm.xml
+END
+Reserved.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Reserved.java
+END
+FdRefund.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/FdRefund.hbm.xml
+END
+Bidding.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Bidding.hbm.xml
+END
+AbstractStorehouse.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractStorehouse.java
+END
+LadingBill.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/LadingBill.hbm.xml
+END
+AbstractOverflow.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractOverflow.java
+END
+FdRefund.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/FdRefund.java
+END
+Orderdetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dixin/!svn/ver/69/dxkc/src/com/dixin/hibernate/Orderdetail.java
+END
+Arrivedetail.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Arrivedetail.hbm.xml
+END
+Order.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Order.hbm.xml
+END
+Arrivement.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Arrivement.hbm.xml
+END
+LadingBill.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/LadingBill.java
+END
+Payment.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Payment.hbm.xml
+END
+AbstractUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractUser.java
+END
+User.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/User.hbm.xml
+END
+Arrangement.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Arrangement.java
+END
+Employee.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Employee.hbm.xml
+END
+Menu.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Menu.java
+END
+Refund.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Refund.hbm.xml
+END
+AbstractStatGroupView.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractStatGroupView.java
+END
+AbstractDelivery.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractDelivery.java
+END
+Payment.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Payment.java
+END
+AbstractRepertory.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractRepertory.java
+END
+Available.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Available.java
+END
+ProductFactoryorderSummary.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/ProductFactoryorderSummary.java
+END
+AbstractRole.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractRole.java
+END
+AbstractCustomer.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractCustomer.java
+END
+AbstractWarehouse.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractWarehouse.java
+END
+Factoryorderdetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Factoryorderdetail.java
+END
+Factoryorder.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Factoryorder.hbm.xml
+END
+AdC.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dixin/!svn/ver/87/dxkc/src/com/dixin/hibernate/AdC.java
+END
+Menu.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Menu.hbm.xml
+END
+Correction.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Correction.hbm.xml
+END
+AbstractShop.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractShop.java
+END
+AbstractOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractOrder.java
+END
+AbstractArrivedetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractArrivedetail.java
+END
+Storehouse.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Storehouse.java
+END
+AbstractAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractAction.java
+END
+Reserved.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Reserved.hbm.xml
+END
+Overflow.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Overflow.java
+END
+AbstractEmployee.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractEmployee.java
+END
+AbstractProduct.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractProduct.java
+END
+Available.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Available.hbm.xml
+END
+AbstractRefund.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractRefund.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/User.java
+END
+StatGroupView.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/StatGroupView.java
+END
+Delivery.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Delivery.java
+END
+AbstractBidding.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractBidding.java
+END
+Storehouse.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Storehouse.hbm.xml
+END
+Customer.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Customer.hbm.xml
+END
+Role.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Role.hbm.xml
+END
+Arrangement.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Arrangement.hbm.xml
+END
+AbstractFactoryorder.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractFactoryorder.java
+END
+AbstractOdC.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dixin/!svn/ver/87/dxkc/src/com/dixin/hibernate/AbstractOdC.java
+END
+Deliverydetail.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/68/dxkc/src/com/dixin/hibernate/Deliverydetail.hbm.xml
+END
+AbstractDeliverydetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/dixin/!svn/ver/68/dxkc/src/com/dixin/hibernate/AbstractDeliverydetail.java
+END
+AbstractStatView.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractStatView.java
+END
+StatView.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/StatView.hbm.xml
+END
+AbstractCorrection.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractCorrection.java
+END
+Repertory.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Repertory.java
+END
+HibernateSessionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/HibernateSessionFactory.java
+END
+Shop.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Shop.hbm.xml
+END
+AbstractArrivement.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractArrivement.java
+END
+Customer.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Customer.java
+END
+Action.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Action.hbm.xml
+END
+Role.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Role.java
+END
+AbstractReserved.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractReserved.java
+END
+BaseJDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/BaseJDO.java
+END
+Shop.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Shop.java
+END
+Arrivedetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Arrivedetail.java
+END
+Order.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Order.java
+END
+AdC.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dixin/!svn/ver/87/dxkc/src/com/dixin/hibernate/AdC.hbm.xml
+END
+Action.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Action.java
+END
+Employee.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Employee.java
+END
+Product.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Product.java
+END
+AbstractFdRefund.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractFdRefund.java
+END
+AbstractOrderdetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/dixin/!svn/ver/29/dxkc/src/com/dixin/hibernate/AbstractOrderdetail.java
+END
+Orderdetail.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dixin/!svn/ver/29/dxkc/src/com/dixin/hibernate/Orderdetail.hbm.xml
+END
+Refund.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Refund.java
+END
+AbstractLadingBill.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractLadingBill.java
+END
+AbstractArrangement.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractArrangement.java
+END
+Overflow.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/Overflow.hbm.xml
+END
+AbstractMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/AbstractMenu.java
+END
+OdC.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dixin/!svn/ver/87/dxkc/src/com/dixin/hibernate/OdC.hbm.xml
+END

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- 
+	Mapping file auto generated
+-->
+<hibernate-mapping>
+	<class name="com.dixin.hibernate.LadingBill" table="lading_bill"
+		catalog="dixin">
+		<id name="id" type="java.lang.Integer">
+			<column name="id" />
+			<generator class="increment" />
+		</id>
+		<many-to-one name="forderdetail" class="com.dixin.hibernate.Factoryorderdetail" fetch="select">
+            <column name="fk_forderdetail_id" not-null="true" />
+        </many-to-one>
+		<property name="quantity" type="java.lang.Integer">
+            <column name="quantity" not-null="true" />
+        </property>
+        <property name="ladingDate" type="java.util.Date">
+            <column name="lading_date" length="19" not-null="true" />
+        </property>
+        <property name="comment" type="java.lang.String">
+            <column name="comment" length="50" not-null="false" />
+        </property>
+        <property name="orderNo" 
+        	formula="(select o.order_no from factoryorder o, factoryorderdetail d where o.id = d.fk_factoryorder_id and d.id = fk_forderdetail_id)"/>
+        <property name="model" 
+        	formula="(select p.model from product p, factoryorderdetail d where p.id = d.fk_product_id and d.id = fk_forderdetail_id)"/>
+        <property name="lastUpdate" type="java.util.Date">
+            <column name="last_update" length="19" not-null="false" />
+        </property>
+       	<property name="finished" type="java.lang.Integer">
+            <column name="finished" length="1" not-null="false" />
+        </property>
+	</class>
+</hibernate-mapping>

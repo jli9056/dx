@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert
+END
+ConvertException.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/ConvertException.java
+END
+JSONalizeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/JSONalizeType.java
+END
+JSONalizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/JSONalizer.java
+END
+BeanUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/BeanUtil.java
+END
+Converter.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/Converter.java
+END
+MapParseSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/MapParseSource.java
+END
+ParseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/ParseException.java
+END
+Parse.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/Parse.java
+END
+ParseSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/ParseSource.java
+END
+ParseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/ParseType.java
+END
+Parser.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/Parser.java
+END
+JSONalizeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/JSONalizeException.java
+END
+JSONalize.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/JSONalize.java
+END

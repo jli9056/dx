@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl
+END
+StorehouseHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/StorehouseHelper.java
+END
+OverflowHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/OverflowHelper.java
+END
+StatViewHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/StatViewHelper.java
+END
+DeliverydetailHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/DeliverydetailHelper.java
+END
+CorrectionHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dixin/!svn/ver/87/dxkc/src/com/dixin/business/impl/CorrectionHelper.java
+END
+BaseHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/BaseHelper.java
+END
+ArrivementHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/dixin/!svn/ver/117/dxkc/src/com/dixin/business/impl/ArrivementHelper.java
+END
+UserHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/UserHelper.java
+END
+ReservedHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/ReservedHelper.java
+END
+StatGroupViewHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/StatGroupViewHelper.java
+END
+DeliveryHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dixin/!svn/ver/96/dxkc/src/com/dixin/business/impl/DeliveryHelper.java
+END
+RepertoryHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/dixin/!svn/ver/83/dxkc/src/com/dixin/business/impl/RepertoryHelper.java
+END
+FdRefundHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dixin/!svn/ver/20/dxkc/src/com/dixin/business/impl/FdRefundHelper.java
+END
+OrderdetailHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/OrderdetailHelper.java
+END
+LadingBillHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/LadingBillHelper.java
+END
+CustomerHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/CustomerHelper.java
+END
+RoleHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/RoleHelper.java
+END
+FactoryOrderHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/dixin/!svn/ver/109/dxkc/src/com/dixin/business/impl/FactoryOrderHelper.java
+END
+ArrangementHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/dixin/!svn/ver/64/dxkc/src/com/dixin/business/impl/ArrangementHelper.java
+END
+MenuHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/MenuHelper.java
+END
+ShopHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/ShopHelper.java
+END
+ArrivedetailHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/dixin/!svn/ver/35/dxkc/src/com/dixin/business/impl/ArrivedetailHelper.java
+END
+OrderHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/88/dxkc/src/com/dixin/business/impl/OrderHelper.java
+END
+ReserveHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dixin/!svn/ver/114/dxkc/src/com/dixin/business/impl/ReserveHelper.java
+END
+PaymentHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/19/dxkc/src/com/dixin/business/impl/PaymentHelper.java
+END
+EmployeeHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/EmployeeHelper.java
+END
+AvailableHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/AvailableHelper.java
+END
+ProductHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/ProductHelper.java
+END
+ProductFactoryorderSummaryHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/ProductFactoryorderSummaryHelper.java
+END
+RefundHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/impl/RefundHelper.java
+END
+FactoryorderdetailHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/dixin/!svn/ver/77/dxkc/src/com/dixin/business/impl/FactoryorderdetailHelper.java
+END

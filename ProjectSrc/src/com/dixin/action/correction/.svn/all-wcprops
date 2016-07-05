@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/correction
+END
+SaveCorrectionAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/correction/SaveCorrectionAction.java
+END
+LoadCorrectionAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/correction/LoadCorrectionAction.java
+END
+DeleteCorrectionAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/correction/DeleteCorrectionAction.java
+END
+SearchCorrectionAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/correction/SearchCorrectionAction.java
+END
+AddCorrectionAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/correction/AddCorrectionAction.java
+END

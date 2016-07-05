@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/converters
+END
+IntegerToSex.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/converters/IntegerToSex.java
+END
+SexToInteger.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/converters/SexToInteger.java
+END
+DateToTimeConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/converters/DateToTimeConverter.java
+END
+TimeToDateConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/converters/TimeToDateConverter.java
+END
+OrderdetailToProductModelConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/converters/OrderdetailToProductModelConverter.java
+END
+MaskNullDateConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/converters/MaskNullDateConverter.java
+END
+BooleanToInt.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/converters/BooleanToInt.java
+END
+IntToBoolean.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/converters/IntToBoolean.java
+END
+MenusSummaryConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/converters/MenusSummaryConverter.java
+END
+DateLongFormatConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/converters/DateLongFormatConverter.java
+END
+IntegerToYesNo.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/converters/IntegerToYesNo.java
+END
+YesNoToInteger.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/hibernate/convert/converters/YesNoToInteger.java
+END

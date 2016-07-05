@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/util
+END
+AuthoriseUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dixin/!svn/ver/86/dxkc/src/com/dixin/util/AuthoriseUtil.java
+END
+TimestampUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dixin/!svn/ver/61/dxkc/src/com/dixin/util/TimestampUtil.java
+END
+DBUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/util/DBUtil.java
+END
+SecurityUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dixin/!svn/ver/56/dxkc/src/com/dixin/util/SecurityUtil.java
+END
+UnionUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/util/UnionUtil.java
+END
+RegistryHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dixin/!svn/ver/86/dxkc/src/com/dixin/util/RegistryHelper.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/role
+END
+LoadRoleAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/role/LoadRoleAction.java
+END
+DeleteRoleAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/role/DeleteRoleAction.java
+END
+SearchRoleAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/role/SearchRoleAction.java
+END
+SaveRoleMenusAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/role/SaveRoleMenusAction.java
+END
+LoadRoleMenusAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/role/LoadRoleMenusAction.java
+END
+AddRoleAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/role/AddRoleAction.java
+END
+SaveRoleAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/role/SaveRoleAction.java
+END

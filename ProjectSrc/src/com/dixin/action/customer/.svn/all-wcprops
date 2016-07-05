@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/customer
+END
+LoadCustomerAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/customer/LoadCustomerAction.java
+END
+DeleteCustomerAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/customer/DeleteCustomerAction.java
+END
+SearchCustomerAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/customer/SearchCustomerAction.java
+END
+AddCustomerAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/customer/AddCustomerAction.java
+END
+SaveCustomerAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/customer/SaveCustomerAction.java
+END

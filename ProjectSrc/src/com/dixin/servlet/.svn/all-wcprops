@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/servlet
+END
+UpgradeManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dixin/!svn/ver/86/dxkc/src/com/dixin/servlet/UpgradeManager.java
+END
+upgrade.properties
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dixin/!svn/ver/87/dxkc/src/com/dixin/servlet/upgrade.properties
+END
+com.dixin.servlet.StatViewUpdater
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/dixin/!svn/ver/86/dxkc/src/com/dixin/servlet/com.dixin.servlet.StatViewUpdater
+END
+StaticTextFileEncodingFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/dixin/!svn/ver/51/dxkc/src/com/dixin/servlet/StaticTextFileEncodingFilter.java
+END
+MyServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dixin/!svn/ver/86/dxkc/src/com/dixin/servlet/MyServlet.java
+END
+StatViewUpdater.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dixin/!svn/ver/86/dxkc/src/com/dixin/servlet/StatViewUpdater.java
+END
+IUpdater.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dixin/!svn/ver/86/dxkc/src/com/dixin/servlet/IUpdater.java
+END

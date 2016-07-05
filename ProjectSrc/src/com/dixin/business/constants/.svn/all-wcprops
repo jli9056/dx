@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/constants
+END
+OrderStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/constants/OrderStatus.java
+END
+RefundMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/constants/RefundMethod.java
+END
+DeliveryStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/constants/DeliveryStatus.java
+END
+Bool.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/constants/Bool.java
+END

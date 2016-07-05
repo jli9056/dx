@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/delivery
+END
+SaveDeliveryAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/dixin/!svn/ver/61/dxkc/src/com/dixin/action/delivery/SaveDeliveryAction.java
+END
+LoadDeliveryAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/delivery/LoadDeliveryAction.java
+END
+SaveDoubleCheckedDeliveryAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/dixin/!svn/ver/61/dxkc/src/com/dixin/action/delivery/SaveDoubleCheckedDeliveryAction.java
+END
+DeleteDeliveryAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/delivery/DeleteDeliveryAction.java
+END
+SearchDeliveryAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/delivery/SearchDeliveryAction.java
+END
+AddDeliveryAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/dixin/!svn/ver/24/dxkc/src/com/dixin/action/delivery/AddDeliveryAction.java
+END
+GenDeliveryAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/delivery/GenDeliveryAction.java
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/user
+END
+DeleteUserAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/user/DeleteUserAction.java
+END
+GetCurrentUserAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/user/GetCurrentUserAction.java
+END
+SaveUserRolesAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/user/SaveUserRolesAction.java
+END
+LoadUserRolesAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/user/LoadUserRolesAction.java
+END
+SearchUserAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/user/SearchUserAction.java
+END
+LoadUserMenusAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/user/LoadUserMenusAction.java
+END
+AddUserAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/52/dxkc/src/com/dixin/action/user/AddUserAction.java
+END
+ChangePasswordAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/dixin/!svn/ver/52/dxkc/src/com/dixin/action/user/ChangePasswordAction.java
+END
+LoginAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dixin/!svn/ver/52/dxkc/src/com/dixin/action/user/LoginAction.java
+END
+SaveUserAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dixin/!svn/ver/52/dxkc/src/com/dixin/action/user/SaveUserAction.java
+END
+LoadUserAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/user/LoadUserAction.java
+END

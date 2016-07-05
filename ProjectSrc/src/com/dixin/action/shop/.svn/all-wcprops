@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/shop
+END
+AddShopAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/shop/AddShopAction.java
+END
+SaveShopAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/shop/SaveShopAction.java
+END
+LoadShopAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/shop/LoadShopAction.java
+END
+DeleteShopAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/shop/DeleteShopAction.java
+END
+SearchShopAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/shop/SearchShopAction.java
+END

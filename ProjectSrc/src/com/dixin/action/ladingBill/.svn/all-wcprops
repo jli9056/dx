@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/ladingBill
+END
+LoadLadingBillAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/ladingBill/LoadLadingBillAction.java
+END
+DeleteLadingBillAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/ladingBill/DeleteLadingBillAction.java
+END
+SearchLadingBillAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/ladingBill/SearchLadingBillAction.java
+END
+AddLadingBillAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/dixin/!svn/ver/77/dxkc/src/com/dixin/action/ladingBill/AddLadingBillAction.java
+END
+SaveLadingBillAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/ladingBill/SaveLadingBillAction.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/arrangement
+END
+SaveArrangementAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/dixin/!svn/ver/61/dxkc/src/com/dixin/action/arrangement/SaveArrangementAction.java
+END
+LoadArrangementAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/arrangement/LoadArrangementAction.java
+END
+DeleteArrangementAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/arrangement/DeleteArrangementAction.java
+END
+SearchArrangementAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/dixin/!svn/ver/23/dxkc/src/com/dixin/action/arrangement/SearchArrangementAction.java
+END
+AddArrangementAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/arrangement/AddArrangementAction.java
+END

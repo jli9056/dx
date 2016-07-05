@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/query
+END
+PagedResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/query/PagedResult.java
+END
+QueryDefn.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/query/QueryDefn.java
+END
+Aggregation.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/query/Aggregation.java
+END
+PagedCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/business/query/PagedCollection.java
+END

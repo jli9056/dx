@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/storehouse
+END
+DeleteStorehouseAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/storehouse/DeleteStorehouseAction.java
+END
+SearchStorehouseAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/storehouse/SearchStorehouseAction.java
+END
+AddStorehouseAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/storehouse/AddStorehouseAction.java
+END
+SaveStorehouseAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/storehouse/SaveStorehouseAction.java
+END
+LoadStorehouseAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/dixin/!svn/ver/3/dxkc/src/com/dixin/action/storehouse/LoadStorehouseAction.java
+END
